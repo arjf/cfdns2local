@@ -1,0 +1,5 @@
+services:
+  cfdns2local:
+    build: .
+    env_file: 
+      - .env

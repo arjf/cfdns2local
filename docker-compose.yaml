@@ -1,5 +1,6 @@
 services:
   cfdns2local:
-    build: .
-    env_file: 
-      - .env
+    image: ghcr.io/arjf/cfdns2local:latest
+    container_name: cfdns2local
+    env_file:
+      .env
